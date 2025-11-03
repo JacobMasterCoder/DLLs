@@ -1,3 +1,4 @@
+using System;
 using CZK;
 using System;
 using System.Collections.Generic;
@@ -63,7 +64,10 @@ namespace ReaperExecutor
                 Notification1.Text = "Not Injected"; // Replace with your textbox's name
             }
         }
+        private void ScriptEditor1_TextChanged(object sender, EventArgs e)
+        {
 
+        }
 
     }
 }
