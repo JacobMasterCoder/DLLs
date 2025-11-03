@@ -18,3 +18,16 @@ if (CZK.Xeno.IsInjected())
             {
                 MessageBox.Show("Not injected. Please attach first.");
             }
+
+
+private void checkInjection()
+        {
+            if (CZK.Xeno.IsInjected())
+            {
+                textBox1.Text = "Injected"; // Replace with your textbox's name
+            }
+            else
+            {
+                textBox1.Text = "Not Injected"; // Replace with your textbox's name
+            }
+        }
